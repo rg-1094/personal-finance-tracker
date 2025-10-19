@@ -1,6 +1,5 @@
 # personal-finance-tracker
 Personal Finance Tracker web application
-```markdown
 # 💰 Personal Finance Tracker
 
 A full-stack web application for managing personal finances, built with HTML5, CSS3, JavaScript, Node.js, and SQLite.
@@ -31,4 +30,3 @@ A full-stack web application for managing personal finances, built with HTML5, C
 - **SQLite** - Database management
 
 ## 📁 Project Structure
-```
