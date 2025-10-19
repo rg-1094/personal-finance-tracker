@@ -98,15 +98,6 @@ finance-tracker/
 | POST | `/expense` | Add new expense |
 | DELETE | `/expense/:id` | Delete specific expense |
 
-## 🎯 Syllabus Alignment
-
-This project covers the following Web Technologies syllabus modules:
-
-- **Module 1**: HTML5 & CSS3 (Forms, responsive design)
-- **Module 2**: JavaScript (DOM manipulation, events, API calls)
-- **Module 4**: Backend Development (Node.js, Express.js)
-- **Module 6**: Database Integration (SQLite CRUD operations)
-
 ## 🗃️ Database Schema
 
 ```sql
@@ -150,8 +141,7 @@ CREATE TABLE expenses (
 ✅ **Tech stack** breakdown  
 ✅ **Installation instructions**  
 ✅ **Usage guide**  
-✅ **API documentation**  
-✅ **Syllabus alignment**  
+✅ **API documentation**   
 ✅ **Database schema**  
 ✅ **Real-world applications**  
 ✅ **Developer information**  
