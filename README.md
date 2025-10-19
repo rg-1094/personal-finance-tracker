@@ -30,6 +30,8 @@ A full-stack web application for managing personal finances, built with HTML5, C
 - **SQLite** - Database management
 
 ## 📁 Project Structure
+
+```
 finance-tracker/
 ├── server.js # Backend server and API routes
 ├── package.json # Project dependencies
@@ -40,6 +42,7 @@ finance-tracker/
 │ ├── style.css # Styling and responsive design
 │ └── script.js # Frontend logic and API integration
 └── README.md # Project documentation
+```
 
 ## 🚀 Quick Start
 
