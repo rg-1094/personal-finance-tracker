@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Finance Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Personal Finance Tracker</h1>
+    
+    <!-- Add Expense Form -->
+    <form id="expenseForm">
+      <input type="text" id="category" placeholder="Category (e.g., Food)" required>
+      <input type="number" id="amount" placeholder="Amount (₹)" min="0" step="0.01" required>
+      <input type="date" id="date" required>
+      <button type="submit">Add Expense</button>
+    </form>
+
+    <!-- Dashboard -->
+    <div class="dashboard">
+      <div class="chart-container">
+        <canvas id="expenseChart"></canvas>
+      </div>
+      <div class="summary">
+        <h2>Recent Transactions</h2>
+        <table id="expenseTable">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Amount (₹)</th>
+              <th>Date</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
