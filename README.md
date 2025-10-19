@@ -52,7 +52,7 @@ finance-tracker/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/finance-tracker.git
+   git clone https://github.com/rg-1094/finance-tracker.git
    cd finance-tracker
    ```
 
